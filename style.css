@@ -1,0 +1,44 @@
+body {
+    background-color: #121212; /* Sleek dark mode background */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px; /* Limits width on desktop to look like a mobile app */
+    text-align: center;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%; /* Makes the image a perfect circle */
+    object-fit: cover;
+    border: 3px solid #007bff;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Spaces out the buttons */
+}
+
+.link-btn {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: all 0.2s ease; /* Smooth hover effect */
+}
+
+.link-btn:hover {
+    background-color: #007bff;
+    transform: translateY(-2px); /* Subtle lift animation */
+}
